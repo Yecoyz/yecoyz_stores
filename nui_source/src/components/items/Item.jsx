@@ -25,7 +25,7 @@ const Item = ({ item, addToCart }) => {
       <img
         src={logo}
         alt={name}
-        style={{ width: "60%", height: "60%" }}
+        style={{ width: "70px", height: "70px", }}
       />
       <Box style={{ textAlign: "center" }}>
         <Typography

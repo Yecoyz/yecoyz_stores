@@ -3,7 +3,7 @@ Config = {}
 Config.Stores = {
     {
         coords = vec3(25.6636, -1345.2216, 29.4970),
-        items = {"bread", "weapon_pistol"},
+        items = {"bread", "water", "sandwich"},
         blip = {
             sprite = 52, 
             scale = 0.8, 
@@ -25,15 +25,93 @@ Config.Stores = {
 
 Config.Items = {
     {
-        label = "Marabou mjölkchoklad",
-        name = "weapon_pistol",
+        label = "Water",
+        name = "water",
         price = 100,
-        image = "https://res.cloudinary.com/coopsverige/image/upload/e_sharpen,f_auto,fl_clip,fl_progressive,q_90,c_lpad,g_center,h_440,w_660/v1727173218/cloud/388555.jpg"
+        image = "https://static.vecteezy.com/system/resources/previews/048/235/544/non_2x/plastic-water-bottle-on-transparent-background-free-png.png"
     },
     {
         label = "Bread",
         name = "bread",
         price = 250,
-        image = "https://assets.bonappetit.com/photos/5c62e4a3e81bbf522a9579ce/16:9/w_4000,h_2250,c_limit/milk-bread.jpg"
+        image = "https://panamarbakery.com/public/Image/2021/3/161547156013789normal.png"
     },
+    {
+        label = "Apple",
+        name = "apple",
+        price = 50,
+        image = "https://upload.wikimedia.org/wikipedia/commons/1/15/Red_Apple.jpg"
+    },
+    {
+        label = "Sandwich",
+        name = "sandwich",
+        price = 150,
+        image = "https://image.shutterstock.com/image-photo/sandwich-on-plate-on-white-background-260nw-1456499394.jpg"
+    },
+    {
+        label = "Burger",
+        name = "burger",
+        price = 500,
+        image = "https://upload.wikimedia.org/wikipedia/commons/5/5b/Classic_burger.jpg"
+    },
+    {
+        label = "Energy Drink",
+        name = "energy_drink",
+        price = 300,
+        image = "https://upload.wikimedia.org/wikipedia/commons/c/c9/Redbull_energy_drink.jpg"
+    },
+    {
+        label = "First Aid Kit",
+        name = "first_aid_kit",
+        price = 700,
+        image = "https://upload.wikimedia.org/wikipedia/commons/6/64/First_aid_kit_ENG.jpg"
+    },
+    {
+        label = "Bandage",
+        name = "bandage",
+        price = 100,
+        image = "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bandage.jpg"
+    },
+    {
+        label = "Cigarettes",
+        name = "cigarettes",
+        price = 200,
+        image = "https://upload.wikimedia.org/wikipedia/commons/3/31/Cigarettes.jpg"
+    },
+    {
+        label = "Radio",
+        name = "radio",
+        price = 500,
+        image = "https://upload.wikimedia.org/wikipedia/commons/a/a1/Portable_radio.jpg"
+    },
+    {
+        label = "GPS",
+        name = "gps",
+        price = 1000,
+        image = "https://upload.wikimedia.org/wikipedia/commons/6/6f/Google_maps_icon.png"
+    },
+    {
+        label = "Lockpick",
+        name = "lockpick",
+        price = 1500,
+        image = "https://upload.wikimedia.org/wikipedia/commons/9/97/Lock_pick.jpg"
+    },
+    {
+        label = "Phone",
+        name = "phone",
+        price = 1000,
+        image = "https://upload.wikimedia.org/wikipedia/commons/a/a6/Smartphone.jpg"
+    },
+    {
+        label = "Weapon License",
+        name = "weapon_license",
+        price = 5000,
+        image = "https://upload.wikimedia.org/wikipedia/commons/e/e5/License.jpg"
+    },
+    {
+        label = "Alcohol",
+        name = "alcohol",
+        price = 350,
+        image = "https://upload.wikimedia.org/wikipedia/commons/a/a0/Beer_can.png"
+    }
 }

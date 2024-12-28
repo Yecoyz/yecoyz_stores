@@ -14,8 +14,8 @@ function App() {
       }
 
       if (event.data.action === "loadItems") {
-        setItems(event.data.items.map((item, index) => ({
-          id: index + 1,
+        setItems(event.data.items.map((item) => ({
+          id: item.index,
           label: item.label,
           name: item.name,
           price: item.price,

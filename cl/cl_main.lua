@@ -7,11 +7,12 @@ local function getItems(storeIdx)
     
     for i = 1, #storeItems do
         for j = 1, #Config.Items do
-          items[i] = Config.Items[i]
-          items[i].index = j
+          if (storeItems[i] == Config.Items[j].name) then
+            items[i] = Config.Items[j]
+            items[i].index = j
+          end
         end
     end
-
     return items
 end
 
