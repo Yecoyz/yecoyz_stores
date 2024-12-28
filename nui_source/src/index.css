@@ -1,0 +1,36 @@
+body {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    overflow: hidden;
+}
+
+/* Anpassa scrollbaren */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #555; /* Mörkare nyans för att passa temat */
+    border-radius: 10px; /* Rundade kanter */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #777; /* Ljusare nyans vid hover */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #212121; /* Matchar bakgrunden */
+    border-radius: 10px; /* Rundade kanter */
+  }
+  
+  /* Extra styling för modern känsla */
+  ::-webkit-scrollbar-thumb:active {
+    background: #999; /* Ytterligare ljusare vid klick */
+  }
+  
