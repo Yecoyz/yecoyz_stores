@@ -21,8 +21,6 @@ RegisterNuiCallback("Eventhandler", function(data, cb)
         local items = data.data.items 
         local paymethod = data.data.method
 
-        print("Items", json.encode(items), " Paymethod", paymethod)
-
         HandlePurchase(items, paymethod)
         return cb({ success = true, message = "Payment received" })
     elseif (data.event == "closeui") then

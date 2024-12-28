@@ -3,7 +3,7 @@ Config = {}
 Config.Stores = {
     {
         coords = vec3(25.6636, -1345.2216, 29.4970),
-        items = {"bread", "water", "sandwich"},
+        items = {"bread", "water", "apple",},
         blip = {
             sprite = 52, 
             scale = 0.8, 
